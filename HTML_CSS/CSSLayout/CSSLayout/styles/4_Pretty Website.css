@@ -1,0 +1,156 @@
+﻿body, div, section, article, header, footer, h1, h2, h3, h5, h4, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+header {
+    width: 900px;
+}
+
+#img_back {
+    background-image: url('../images/headerBackground.jpg');
+    height: 270px;
+    background-size: auto;
+    z-index: 0;
+}
+
+    #img_back h2 {
+        display: inline-block;
+        color: white;
+        z-index: 1;
+        position: relative;
+        top: 200px;
+        right: -480px;
+    }
+
+header nav {
+    height: 45px;
+    background-color: #EAEAEA;
+}
+
+    header nav ul {
+        height: 100%;
+        list-style-type: none;
+    }
+
+        header nav ul li {
+            display: inline-block;
+            border: 1px solid white;
+            height: 100%;
+            margin-right: -3px;
+        }
+
+            header nav ul li a {
+                display: block;
+                text-transform: none;
+                text-decoration: none;
+                font-weight:bold;
+                height: 100%;
+                color:#827870;
+                padding: 10px 30px;
+            }
+
+                header nav ul li a:hover {
+                    color: white;
+                    background-color: #BCBCBC;
+                }
+
+#content {
+    display: inline-block;
+    width: 560px;
+    background-color: white;
+    margin: 20px;
+}
+
+h1 {
+    color: #8CC326;
+    text-transform: uppercase;
+    padding-left:10px;
+}
+
+#content section {
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid #EAEAEA;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+p {
+    font-size: 11px;
+    padding-left:10px;
+}
+
+article .img_art {
+    vertical-align: top;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+article .text_art {
+    vertical-align: top;
+    width: 280px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+aside {
+    vertical-align: top;
+    display: inline-block;
+    width: 250px;
+    margin: 20px auto;
+}
+
+    aside #news {
+        background-color: #EAEAEA;
+        border-radius: 20px;
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    aside .aside-green {
+        color: #8CC326;
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+
+h4 {
+    font-size: 11px;
+    font-weight:normal;
+}
+
+.text_news {
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+aside #message {
+    border: 1px solid #EAEAEA;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+footer {
+    width: 900px;
+    height: 60px;
+    background-color: #8CC326;
+}
+
+    footer div {
+        padding-top: 20px;
+        padding-left: 150px;
+    }
+
+        footer div a {
+            color: black;
+        }

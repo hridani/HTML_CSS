@@ -1,0 +1,18 @@
+﻿h1{
+    margin-left:50px;
+}
+
+#navigation li{
+    list-style-type:none;
+    display:inline;
+    color:#8f8f8f;
+    padding-right:50px;
+    font-size:80%;
+}
+
+#search{
+    float:right;
+    margin-right:30px;
+    padding:0px;
+
+}

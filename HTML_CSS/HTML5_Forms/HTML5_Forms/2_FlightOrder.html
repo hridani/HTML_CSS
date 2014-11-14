@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Flight Order</title>
+    <link rel="stylesheet" href="2_FlightOrder.css" />
+</head>
+<body>
+    <form>
+        <h1>FLIGHT ORDER</h1>
+        <fieldset>
+            <label class="city" for="city_form">From</label>
+            <select class="top" id="city_form">
+                <option value="">enter a city</option>
+                <option>Sofia</option>
+                <option>Plovdiv</option>
+                <option>Smolyan</option>
+            </select>
+            <label for="dep_date">Departure Date</label>
+            <input type="date" id="dep_date" placeholder="09.06.2014" />
+
+            <label for="ret_date">Return Date</label>
+            <input type="date" id="ret_date" placeholder="13.06.2014" />
+            <div class="years">
+                <div>
+                    <label for="big">12+</label>
+                    <input id="big" min="13" type="number" placeholder="0" />
+                </div>
+                <div>
+                    <label for="medium">2-12</label>
+                    <input id="medium" min="2" max="12" type="number" placeholder="0" />
+                </div>
+                <div>
+                    <label for="small">0-2</label>
+                    <input id="small" min="0" max="2" type="number" placeholder="0" />
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <label class="city" for="city_to">To</label>
+            <select id="city_to">
+                <option value="">enter a city</option>
+                <option>Sofia</option>
+                <option>Plovdiv</option>
+                <option>Smolyan</option>
+            </select>
+            <input class="check" type="checkbox" id="directs" />
+            <label for="directs">Prefer direct</label>
+            <label class="time_interval" for="time_start">Time Interval</label>
+            <input class="time" id="time_start" type="time" placeholder="00:20"  />
+            <input class="time" type="time" placeholder="05:50" />
+            <label for="ret_start" class="time_interval">Time Interval</label>
+            <input class="time" id="ret_start" type="time" />
+            <input class="time" type="time" />
+            <label class="city" for="city_to">Choose class</label>
+            <select id="class" >
+                <option value="economy">Economy</option>
+                <option value="business">Business</option>
+            </select>
+            <button type="submit">Search</button>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>

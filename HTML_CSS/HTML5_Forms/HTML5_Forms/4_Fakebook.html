@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Fakebook</title>
+    <link rel="stylesheet" href="4_Fakebook.css" />
+</head>
+<body>
+    <form>
+        <section>
+            <h1>fakebook<span>&reg;</span></h1>
+            <h2>Registration</h2>
+            <h3>It is safe and it will always be!</h3>
+            <fieldset class="none_important">
+                <legend>None-Important Information</legend>
+                <input type="text" name="first_name" placeholder="FirstName"/>
+                <input type="text" name="laast_name" placeholder="LastName" />
+                <input type="email" name="email" placeholder="Your Email" pattern="[a-za-z0-9]+(\\.[-_a-za-z0-9]+)*+@[a-za-z]+[-]*[.a-za-z]{2,}" />
+                <input type="tel" name="tel" placeholder="Phone number" pattern="\+\{1,3}([ -]*([0-9]+))+" />
+                <input type="password" name="pass" placeholder="Your Passwors" />
+                <input type="text" name="website" placeholder="Website" />
+                <label for="birthday">Birthday</label>
+                <input class="birthday" type="date" id="birthday" value="" placeholder="05/09/2014" />
+                <div class="gender">
+                    <input type="radio" name="gender" value="female" id="female" />
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" value="male" id="male" />
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" value="other" id="other" checked="checked"/>
+                    <label for="other">Other</label>
+                </div>
+            </fieldset>
+            <fieldset class="requered">
+                <legend>Important Information *requered</legend>
+                <select>
+                    <option value="">Country</option>
+                    <option value="Bulgaria">Bulgaria</option>
+                    <option value="India">India</option>
+                    <option value="Shangri-La">Shangri-Li</option>
+                </select>
+                <input type="text" name="village" placeholder="Village" />
+                <input type="text" name="district" placeholder="Disprict" />
+                <input type="text" name="street" placeholder="Street" />
+                <input class="short" type="text" name="number" placeholder="Nr" />
+                <input class="short" type="text" name="floor" placeholder="Floor" />
+                <input class="short" type="text" name="ap_number" placeholder="Ap Nr" />
+                <div>
+                    <label for="color">Door Color</label><br />
+                    <input class="color" type="color" name="color" id="color" value="#fe80c0" />
+                    <input type="text" name="water" placeholder="Water Mater Nr" />
+                    <select>
+                        <option value="">Aunt's Panties size</option>
+                        <option value="large">Large</option>
+                        <option value="medium">Medium</option>
+                        <option value="small">Small</option>
+                    </select>
+                </div>
+                <label for="personal">More personal information</label>
+                <textarea placeholder="Give us more information!!!" id="personal" name="personal"></textarea>
+                </div>
+
+            </fieldset>
+            <fieldset class="button">
+                <input class="reset" type="reset" value="Clear Form" />
+                <input class="submit" type="submit" value="Register" />
+            </fieldset>
+
+        </section>
+    </form>
+
+</body>
+</html>

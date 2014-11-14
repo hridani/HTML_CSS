@@ -1,0 +1,36 @@
+﻿table {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+table ul {
+    list-style-type: none;
+    padding: 0;
+}
+table th, td {
+    width: 20%;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+table th {
+    padding-top: 20px;
+}
+.grey {
+    color: #5E665C;
+}
+#foot-header {
+    padding-left: 25px;
+    font-size: 130%;
+}
+
+
+.footer_text{
+    padding-left:20px;
+    font-size:90%;
+    font-style:italic;
+    background-color:#f7f7f7;
+    color:#b3b2b2;
+    margin-bottom:0;
+}

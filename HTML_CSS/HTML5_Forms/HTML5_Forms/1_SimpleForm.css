@@ -1,0 +1,82 @@
+﻿body, h1 , p{
+    margin: 0px;
+    padding:0px;
+    font-family:Tahoma;
+}
+
+section{
+     width:50%;
+     background-color:#eeeeee;
+     overflow:auto;
+     padding:10px;
+ }
+ h1, .register{
+     color: #234465;
+     font-size:20px;
+     margin:0px;
+}
+
+h2{
+    font-size:14px;
+}
+p {
+    color: #5a5a5a;
+    font-size:12px;
+}
+
+input{
+    margin-bottom:3%;
+    width:93%;
+    font-size:11px;
+    padding:7px;
+}
+form {
+    float:left;
+    width:44%;
+    padding:0 3%;
+}
+    form.login rem{
+        height:25px;
+        float:left;
+    }
+    form.login input[type="checkbox"]{
+        float:left;
+        margin:0 5px 0 0;
+        width:auto;
+     }
+
+    form.login label {
+         font-size:11px;
+         color:#fff ;
+    }
+
+.submit {
+    width:40%;
+    float:right;
+    margin-right:1%;
+    border:2px solid #234465;
+    color:#234465;
+}
+
+.login{
+    background-color:#234465;
+    color:#fff;
+    padding-bottom:9%;
+}
+
+.login_button{
+    border: 2px solid #ff9c00;
+    background-color:#234465;
+    color:#fff;
+  
+}
+.pass a{
+    color:#fff;
+    font-size:10px;
+}
+.pass{
+    margin: 24px 20px 0 0;
+    padding:0;
+    text-align:right;
+    
+}

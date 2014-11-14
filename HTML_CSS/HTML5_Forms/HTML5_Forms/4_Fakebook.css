@@ -1,0 +1,124 @@
+﻿body, h1 {
+    margin:0;
+    padding:0;
+    color:#fff;
+    font-family:'Tahoma';
+}
+h1{
+    font-family:'Lucida Bright';
+    font-size:600%;
+    text-align:center;   
+}
+    h1 span{
+        font-size:12px;
+        margin-left:1%;
+        margin-bottom:-2px;
+    }
+h2{
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: initial;
+}
+
+h3{
+    font-size:96%;
+    text-align:center;
+    margin-top:initial;
+}
+
+form {
+    width:50%;
+    padding:1% 1% 0% 0%;
+    background-color:#3B5997;
+    overflow:auto;
+}
+
+fieldset{
+   border-radius:10px;
+    margin-bottom:1%;
+}
+.none_important{
+   width:34%;
+   float:left;
+   padding-bottom:4%;
+   margin-left:1%;
+}
+.requered{
+    width:54%;
+    float:right;
+    margin-right:0%;
+ }
+
+input {
+    width:46%;
+    border-radius:5%;
+    margin-bottom:2%;
+}
+
+input, select {
+    font-size:65%;
+}
+.requered input, .requered select {
+    width:30%;
+    border-radius:5%;
+}
+
+legend{
+    font-weight:bold;
+    font-size:70%;
+}
+
+label{
+    font-weight:bold;
+    font-size:10px;
+}
+.birthday{
+    width:80%;
+}
+
+.gender{
+    font-size:60%;
+    margin-top:5%;
+}
+
+#female, #male, #other{
+    width:10%;
+}
+.short{
+    width: 10%!important;
+}
+.color{
+    padding:0;
+    border-radius:5%;
+}
+textarea{
+    border-radius:5%;
+    width:95%;
+}
+.button{
+    margin:0;
+    padding:0;
+    clear:both;
+    border:none;
+}
+.reset{
+    width:37.5%;
+    color:#465997;
+    background-color:#dddddd;
+    font-size:90%;
+    border:1px solid;
+    border-radius:10px;
+    padding:2%;
+    margin-left:1.3%;
+}
+
+.submit{
+    width:58%;
+    float:right;
+    color:#465997;
+    background-color:#dddddd;
+    font-size:120%;
+    border:1px solid;
+    border-radius:10px;
+    padding:1.5%;
+}

@@ -1,0 +1,35 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+section{
+    padding:10px;
+}
+span{
+    font-size:18px;
+}
+button{
+    padding:0 15px;
+    
+}
+
+form{
+    margin-top:20px;
+}
+.submit{
+    background:none;
+    border:none;
+    padding:0;
+    margin:0;
+    height:40px; 
+}
+.submit:hover {
+    cursor:pointer;
+}
+.text{
+    padding:18px 18px 0;
+}
+
+form img {
+    margin-bottom:-6px;
+}

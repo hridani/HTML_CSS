@@ -1,0 +1,68 @@
+﻿body {
+    margin:0;
+    padding:0;
+    font-family:Tahoma;
+   
+}
+h1{
+    margin-top:3%;
+    text-align:center;
+}
+h3 {
+    margin-left:2%;
+    margin-bottom:2%;
+}
+
+form {
+    width:80%;
+    background:#ffc0cb;
+    
+    border-radius:10px;
+     height:400px;
+    width:1000px;
+    padding: 1px 25px 15px 23px;
+
+   
+}
+section{
+    display:inline-block;
+    vertical-align:top;
+    margin-right:0.8%;
+}
+
+.profil{
+   width:22%;
+   
+  
+   
+}
+figure{
+    margin:0;
+   
+}
+figcaption {
+    margin-top:10px;
+    margin-bottom:5px;
+    font-size:110%;
+  
+}
+meter{
+    margin-top: 10px;
+    width:80%;
+    height:24px;
+}
+
+.audio {
+    width: 30%;
+    
+
+}
+embed{
+    padding-bottom:1.5%;
+}
+
+.video{
+    width:44%;
+    
+     
+}

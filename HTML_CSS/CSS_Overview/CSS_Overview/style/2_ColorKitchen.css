@@ -1,0 +1,192 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background:url('../images/colorful_dots_on_black.jpg');
+}
+/*--->header-----*/
+body>header {
+    width:100%;
+    color:yellow;
+    height:70px;
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+    margin-bottom:100px;
+    background: linear-gradient(to right, red 33.3%, green 33.3%,green 67.7%, blue 67.7%);
+}
+/*,----header----*/
+
+/*---> aside----*/
+aside {
+    width:270px;
+    height:265px;
+    background-color:white;
+    opacity:0.9;
+    float:left;
+    margin-left:15px;
+    border-radius:13px;
+}
+    aside header {
+        padding:10px;
+        font-size:28px;
+        text-decoration:underline;
+    }
+    aside ul {
+        margin-left:10px;
+        list-style-position: inside;
+        list-style-image:url('../images/buttonCheck.jpg' );
+        width:200px;
+        height:20px;
+    }
+
+    ul a:not(visited) {
+        text-decoration:none;
+        color:black;
+    }
+
+    ul a:visited {
+        text-decoration:none;
+        color:#A4A8B1;
+    }
+    
+    li {
+        padding:2px;
+    }
+    
+    li:nth-child(1):hover {
+        background-color:red;
+        border-radius:10px;
+    }
+
+    li:nth-child(2):hover {
+    background-color:#FFA500;
+    border-radius:10px;
+    }
+
+    li:nth-child(3):hover {
+    background-color:yellow;
+    border-radius:10px;
+    }
+
+    li:nth-child(4):hover {
+    background-color:green;
+    }
+
+    li:nth-child(5):hover {
+    background-color:blue;
+    }
+
+    li:nth-child(6):hover {
+    background-color:purple;
+    }
+/*   <---aside-----*/
+/* ----> article ----*/
+article {
+    background-color:white;
+    opacity:0.9;
+    width:900px;
+    margin-top:15px;
+    margin-left:350px;
+    border-radius:10px;
+}
+    article span {
+        display:inline-block;
+        padding:15px;
+    }
+
+    article header {
+        margin:10px 10px 0 10px ;
+        padding:10px;
+        font-size:30px;
+    }
+    article div {
+        padding:15px;
+    }
+    div:first-letter {
+        font-style:italic;
+        font-size:45px;
+    }
+    div:first-line {
+        font-style:italic;
+    }
+/*  <----article--- */
+
+/* --->footer--- */
+footer a {
+    color:grey;
+    display:inline-block;
+    padding-bottom:5px;
+    padding-left:5px;
+}
+/* <---footer--- */
+
+/*colors*/
+        #webColors {
+            background-color:red;
+            height:25px;
+            width:91%;
+            border-radius:10px;
+            display:inline-block;
+            margin-top:10px;
+            color:white;
+        }
+        
+        #webSafeColors {
+            background-color:#FFA500;
+            display:inline;
+            height:25px;
+            width:91%;
+            border-radius:10px;
+            display:inline-block;
+            margin-top:10px;
+        }
+        
+        #RGB {
+            background-color:yellow;
+            height:25px;
+            width:91%;
+            border-radius:10px;
+            display:inline-block;
+            margin-top:10px;
+        }
+        
+        #RGBA {
+            background-color:green;
+            height:25px;
+            width:91%;
+            border-radius:10px;
+            display:inline-block;
+            margin-top:10px;
+            color:white;
+        }
+        
+        #HSL_HSV {
+            background-color:blue;
+            height:25px;
+            width:91%;
+            border-radius:10px;
+            display:inline-block;
+            margin-top:10px;
+            color:white;
+        }
+        
+        #lorem {
+            background-color:purple;
+            height:25px;
+            width:91%;
+            border-radius:10px;
+            display:inline-block;
+            margin-top:10px;
+            color:white;
+        }
+       
+
+
+
+span#text_change {
+    color:#1B1D98;
+    font-style:italic;
+}
